@@ -45,4 +45,4 @@ let sign = encrypt.encrypt(this.signString)
 
 ## 成功示例
 
-![checkout pic](./payment-api-pic.png)
+![checkout pic](./images/payment-api-pic.png)
