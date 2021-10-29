@@ -19,12 +19,9 @@ Request method：Get
  | notifyUrl      | false    | String | N                       | Callback address: receive payment results  |
  | payment        | false    | String | N                       | Payment method 1. Address 2. QR code       |
 
-Parameter description
-merchantNumber、publicKey（Get from mailbox）
-
 ## sign
 
-Composition: it is arranged according to the fixed order of demo. The `&` symbol is used to connect the parameters. After RSA encryption by merchant's `public key`,  Base64 is used to encode.
+Composition: it is arranged according to the fixed order of demo. The `&` symbol is used to connect the parameters. After RSA encryption by merchant's `public key`,  `Base64` is used to encode.
 
 ### JAVA
 
